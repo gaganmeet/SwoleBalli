@@ -17,9 +17,9 @@ export default defineConfig(({ mode }) => {
         registerType: 'prompt',
         includeAssets: ['favicon.png', 'icons/apple-touch-icon.png'],
         manifest: {
-          name: 'SwoleBalli',
-          short_name: 'SwoleBalli',
-          description: 'Train like a legend. Track your training, coach your clients.',
+          name: 'Open Gym',
+          short_name: 'Open Gym',
+          description: 'Track your training, coach your clients.',
           start_url: '/',
           scope: '/',
           display: 'standalone',

@@ -9,7 +9,7 @@ export function AuthLayout({ children }: { children: ReactNode }) {
           <span className="bg-primary text-primary-foreground flex size-12 items-center justify-center rounded-2xl">
             <Dumbbell className="size-6" />
           </span>
-          <span className="text-lg font-semibold tracking-tight">SwoleBalli</span>
+          <span className="text-lg font-semibold tracking-tight">Open Gym</span>
         </div>
         {children}
       </div>

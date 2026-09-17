@@ -2,10 +2,10 @@ import type { ReactNode } from 'react'
 
 const SECTIONS: { heading: string; body: ReactNode }[] = [
   {
-    heading: 'What SwoleBalli is',
+    heading: 'What Open Gym is',
     body: (
       <p>
-        SwoleBalli is a workout tracking app for athletes and coaches. This policy explains what information we collect
+        Open Gym is a workout tracking app for athletes and coaches. This policy explains what information we collect
         when you use it, why, and how you can control or remove it.
       </p>
     ),
@@ -58,9 +58,9 @@ const SECTIONS: { heading: string; body: ReactNode }[] = [
     body: (
       <p>
         Your data is stored in a Supabase-hosted PostgreSQL database with row-level security, restricting every query to
-        only the rows you're allowed to see. Traffic between your device and our servers is encrypted (HTTPS/TLS).
-        SwoleBalli also works offline: your session and recently viewed data are cached locally on your device (browser
-        local storage) so the app keeps working without a connection, and syncs back once you're online again.
+        only the rows you're allowed to see. Traffic between your device and our servers is encrypted (HTTPS/TLS). Open
+        Gym also works offline: your session and recently viewed data are cached locally on your device (browser local
+        storage) so the app keeps working without a connection, and syncs back once you're online again.
       </p>
     ),
   },
@@ -82,7 +82,7 @@ const SECTIONS: { heading: string; body: ReactNode }[] = [
     heading: "Children's privacy",
     body: (
       <p>
-        SwoleBalli is not directed at children under 13, and we do not knowingly collect information from anyone under
+        Open Gym is not directed at children under 13, and we do not knowingly collect information from anyone under
         that age. If you believe a child has created an account, contact us and we'll delete it.
       </p>
     ),

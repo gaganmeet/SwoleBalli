@@ -34,7 +34,7 @@ export function TopBar() {
           <span className="bg-primary text-primary-foreground flex size-7 items-center justify-center rounded-lg">
             <Dumbbell className="size-4" />
           </span>
-          SwoleBalli
+          Open Gym
           <Badge variant="secondary" className="text-[10px] font-medium tracking-wide uppercase">
             Alpha
           </Badge>

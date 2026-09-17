@@ -1,8 +1,8 @@
 {
   "packageId": "com.gaganmeetbahri.swoleballi",
   "host": "swoleballi.gaganmeetbahri.com",
-  "name": "SwoleBalli",
-  "launcherName": "SwoleBalli",
+  "name": "Open Gym",
+  "launcherName": "Open Gym",
   "display": "standalone",
   "themeColor": "#2A78D6",
   "themeColorDark": "#000000",

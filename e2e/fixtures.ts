@@ -1,5 +1,5 @@
 import { test as base, expect, type Page } from '@playwright/test'
-import { createTestUser, deleteTestUser, type TestUser } from './support/adminApi'
+import { createTestUser, deleteTestUser, hasAdminCredentials, type TestUser } from './support/adminApi'
 
 export async function loginAs(page: Page, user: TestUser) {
   await page.goto('/login')
@@ -11,11 +11,17 @@ export async function loginAs(page: Page, user: TestUser) {
 
 export const test = base.extend<{ athlete: TestUser; coach: TestUser }>({
   athlete: async ({}, use) => {
+    if (!hasAdminCredentials()) {
+      test.skip(true, 'SUPABASE_SERVICE_ROLE_KEY not configured — cannot create test users')
+    }
     const user = await createTestUser('athlete')
     await use(user)
     await deleteTestUser(user.id)
   },
   coach: async ({}, use) => {
+    if (!hasAdminCredentials()) {
+      test.skip(true, 'SUPABASE_SERVICE_ROLE_KEY not configured — cannot create test users')
+    }
     const user = await createTestUser('coach')
     await use(user)
     await deleteTestUser(user.id)

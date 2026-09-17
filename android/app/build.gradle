@@ -24,8 +24,8 @@ def twaManifest = [
     applicationId: 'com.gaganmeetbahri.swoleballi',
     hostName: 'swoleballi.gaganmeetbahri.com', // The domain being opened in the TWA.
     launchUrl: '/', // The start path for the TWA. Must be relative to the domain.
-    name: 'SwoleBalli', // The application name.
-    launcherName: 'SwoleBalli', // The name shown on the Android Launcher.
+    name: 'Open Gym', // The application name.
+    launcherName: 'Open Gym', // The name shown on the Android Launcher.
     themeColor: '#2A78D6', // The color used for the status bar.
     themeColorDark: '#000000', // The color used for the dark status bar.
     navigationColor: '#000000', // The color used for the navigation bar.

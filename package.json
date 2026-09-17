@@ -1,5 +1,5 @@
 {
-  "name": "swoleballi",
+  "name": "open-gym",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,7 @@
     "lint": "oxlint",
     "preview": "vite preview",
     "format": "prettier --write .",
-    "test:e2e": "playwright test",
+    "test:e2e": "node e2e/check-env.mjs",
     "test:e2e:ui": "playwright test --ui",
     "db:link": "supabase link",
     "db:push": "supabase db push",
